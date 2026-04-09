@@ -40,6 +40,10 @@ SGP4 propagation
 Real-time satellite tracking
 Web dashboard
 
+## Some insights
+
+The dataset reveals structured orbital shells, with clear clustering around 53° and 43° inclinations, consistent with modern LEO constellation design.
+
 ## 👨‍💻 Author
 
 # Luis Correa
