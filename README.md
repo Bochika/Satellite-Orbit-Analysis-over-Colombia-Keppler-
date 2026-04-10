@@ -32,11 +32,10 @@ This project analyzes satellite trajectories using real TLE (Two-Line Element) d
 
 ## ▶️ Run the Dashboard
 
-```bash
-pip install -r requirements.txt
-python -m streamlit run app.py
+'pip install -r requirements.txt'
+'python -m streamlit run app.py'
 
-## 📍 Technologies
+##  Technologies
 - Python
 - NumPy
 - Matplotlib
@@ -45,7 +44,22 @@ python -m streamlit run app.py
 
 ## Images
 
+### Ground Tracks
+![alt text](../Images/groundtracks.png)
+
+
+
+### Orbits over Colombia
+![alt text](../Images/map.png)
+
+
+
+## Dashboard
+
+### Counting satellites over cities
 ![alt text](../Images/cities.png)
+
+
 
 
 
