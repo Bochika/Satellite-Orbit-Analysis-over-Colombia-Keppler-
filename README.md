@@ -1,48 +1,53 @@
 
 # 🛰️ Satellite Orbit Analysis over Colombia
 
-This project analyzes satellite orbits using TLE (Two-Line Element) data and propagates their trajectories to study their behavior over Colombia.
+This project analyzes satellite trajectories using real TLE (Two-Line Element) data and visualizes their coverage over Colombia.
 
 ## 🚀 Features
 
-Automatic TLE data retrieval
-Orbit propagation (Kepler model)
-Ground track visualization
-Velocity analysis
-Satellite visibility over Colombia
-
-## 📊 Example Outputs
-
-Ground track maps
-Velocity time series
-Orbit classification (LEO, MEO, GEO)
-
-## 🧠 Key Concepts
-
-Orbital mechanics
-Keplerian propagation
-Earth-centered coordinate systems
-
-## 🛠️ Tech Stack
-
-Python
-NumPy / Pandas
-Matplotlib
-Geospatial analysis
+- Orbital propagation using Keplerian models
+- Ground track visualization
+- Satellite coverage analysis over major Colombian cities
+- Interactive dashboard built with Streamlit
 
 ## 📂 Project Structure
 
-See /src and /notebooks for implementation details.
+- `Notebooks/` → step-by-step analysis
+- `data/` → TLE datasets
+- `app.py` → interactive dashboard
 
-## 📌 Future Work
+## 📊 Notebooks
 
-SGP4 propagation
-Real-time satellite tracking
-Web dashboard
+1. Data loading and preprocessing
+2. Orbital elements extraction
+3. Orbital propagation & ground tracks
+4. Coverage analysis by city
+5. Interactive dashboard
 
-## Some insights
+## 🛰️ Example Output
 
-The dataset reveals structured orbital shells, with clear clustering around 53° and 43° inclinations, consistent with modern LEO constellation design.
+- Satellite ground tracks over Colombia
+- Number of satellites passing over cities
+- Interactive visualization
+
+## ▶️ Run the Dashboard
+
+```bash
+pip install -r requirements.txt
+python -m streamlit run app.py
+
+## 📍 Technologies
+- Python
+- NumPy
+- Matplotlib
+- Folium
+- Streamlit
+
+## Images
+
+![alt text](../Images/cities.png)
+
+
 
 ## 👨‍💻 Author
 
