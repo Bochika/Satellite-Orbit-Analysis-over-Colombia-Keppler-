@@ -45,19 +45,19 @@ This project analyzes satellite trajectories using real TLE (Two-Line Element) d
 ## Images
 
 ### Ground Tracks
-![alt text](../Images/groundtracks.png)
+![img](../Images/groundtracks.png)
 
 
 
 ### Orbits over Colombia
-![alt text](../Images/map.png)
+![img](../Images/map.png)
 
 
 
 ## Dashboard
 
 ### Counting satellites over cities
-![alt text](../Images/cities.png)
+![img](../Images/cities.png)
 
 
 
@@ -65,4 +65,4 @@ This project analyzes satellite trajectories using real TLE (Two-Line Element) d
 
 ## 👨‍💻 Author
 
-# Luis Correa
+# Luis Miguel Correa
